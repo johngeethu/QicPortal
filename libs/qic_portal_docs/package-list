@@ -1,0 +1,9 @@
+com.maximus.qicportaltestautomation.qic_app_manager
+qic_login_helper
+qic_portal_case_creation
+qic_data_generators
+com.maximus.qicportaltestautomation.qic_object_model
+qic_portal_pdf_data_helper
+com.maximus.qicportaltestautomation.qic_zz_tests
+qic_requirements_data
+qic_tab_navigation_helper

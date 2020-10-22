@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<processingReport><requestId>7958</requestId><serviceName>BASIC</serviceName>
+<totalDocumentCount>1</totalDocumentCount>
+<successDocumentCount>0</successDocumentCount>
+<failureDocumentCount>1</failureDocumentCount>
+< errorText >This is exception</ errorText >
+
+<documents>
+<document>
+<dcn>dme700002719</dcn>
+<result>failure</result>
+<errorCount>1</errorCount>
+<errorTexts>
+<errorText>User Error : Duplicate DCN/ICN dme700002719</errorText></errorTexts>  - secondary error
+              </document>
+                <document>
+<dcn>dme700002718</dcn>
+<result>failure</result>
+<errorCount>1</errorCount>
+<errorTexts>
+<errorText>User Error : Duplicate DCN/ICN dme700002719</errorText></errorTexts>
+              </document>
+
+   </documents>
+</processingReport>

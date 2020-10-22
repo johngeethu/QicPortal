@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="UploadAdditionalInformation">
+        <classes>
+            <class name="com.maximus.qicportaltestautomation.qic_zz_tests.UploadAdditionalInfoGuiTests"/>
+            <class name="com.maximus.qicportaltestautomation.qic_zz_tests.UploadAdditionalInfoFunctionalTests"/>
+        </classes>
+    </test>
+
+</suite>

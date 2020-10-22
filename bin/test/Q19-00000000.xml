@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Qicappeals>
+    <serviceName>QICPORTAL_BASIC_XSD2</serviceName>
+    <requestId>900009207</requestId>
+    <BeneficiaryInformation>
+        <FirstName>BeneOne</FirstName>
+        <LastName>BeneLast</LastName>
+        <MedicareNumber>24234242433</MedicareNumber>
+        <hic>2342342423</hic>
+    </BeneficiaryInformation>
+    <RequestorInformation>
+        <AppealingParty>PRVS</AppealingParty>
+        <Organization>Other Test Organization1203</Organization>
+        <FirstName>Provider</FirstName>
+        <LastName>Lname</LastName>
+        <Address1>Addr1 Other Test Organization1203</Address1>
+        <Address2>2423424</Address2>
+        <City>City Other Test Organization1203</City>
+        <State>AR</State>
+        <Zipcode>97852</Zipcode>
+        <Email>gg123@gmail.com</Email>
+        <Phone>2342424234</Phone>
+        <Fax>2342342342</Fax>
+        <NpiEin>12032018</NpiEin>
+    </RequestorInformation>
+    <Provider>
+        <ProviderInformation>
+            <Name>O'Connor hospital</Name>
+        </ProviderInformation>
+    </Provider>
+    <AppealInformation>
+        <AppealPart>DME</AppealPart>
+        <DateTimeReceived>2019-08-08T14:42:55</DateTimeReceived>
+        <Priority>Expedited</Priority>
+        <Redetermination>
+            <Number>234234234234</Number>
+            <Date>2019-08-07</Date>
+            <OverPaymentInvolved>No</OverPaymentInvolved>
+            <MAC>2D</MAC>
+            <ReasonForAppeal>This is reson for appeal . While this is</ReasonForAppeal>
+        </Redetermination>
+        <Claims>
+            <Claim>
+                <Number>2342342423</Number>
+                <ItemService>P-DME</ItemService>
+                <DosFrom>2019-08-06</DosFrom>
+                <DosTo>2019-08-08</DosTo>
+            </Claim>
+            <Claim>
+                <Number>sdsfsdf</Number>
+                <ItemService>PMD-DME</ItemService>
+                <DosFrom>2019-08-05</DosFrom>
+                <DosTo>2019-08-05</DosTo>
+            </Claim>
+            <Claim>
+                <Number>34534534534</Number>
+                <ItemService>HBSS-DME</ItemService>
+                <DosFrom>2019-08-05</DosFrom>
+                <DosTo>2019-08-05</DosTo>
+            </Claim>
+        </Claims>
+    </AppealInformation>
+    <Documents>
+        <Document>
+            <dcn>dme700009207</dcn>
+            <shared>true</shared>
+            <project>DME</project>
+            <docPriority>Standard</docPriority>
+            <source>Portal</source>
+            <pageCount>3</pageCount>
+            <receivedDate>2019-08-08T14:42:55</receivedDate>
+            <documentTypes>
+                <documentType>StandardAppealRequest</documentType>
+            </documentTypes>
+            <fileName>Q19-00000000.pdf</fileName>
+            <temporaryID>Q19-00000000</temporaryID>
+        </Document>
+    </Documents>
+</Qicappeals>
